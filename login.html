@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://kit.fontawesome.com/30b64a1bf1.js" crossorigin="anonymous"></script>
+    <style>
+        header nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 18px;
+            margin-right: 10px;
+            font-weight: 500;
+        }
+
+        .loginForm {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .login {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+        }
+
+        .login input {
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .login input[type="submit"] {
+            background-color: rgba(53, 205, 205, 0.297);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <header>
+        <nav>
+            <div>
+                <a href="">Home</a>
+                <a href="">Dashboard</a>
+                <a href="">Inventory</a>
+            </div>
+            <div>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section class="loginForm">
+            <form class="login">
+                <h1>Login</h1>
+                <input type="email" name="" id="" placeholder="Your Email" required>
+                <input type="password" name="" id="" placeholder="Password" required>
+                <input type="submit" value="Login">
+            </form>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
